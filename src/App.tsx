@@ -55,7 +55,7 @@ const App: React.FC = () => {
         onChange={(e) => setSearchTerm(e.target.value)}
         type="text"
         placeholder="Search"
-        className="border border-1 w-80 rounded-md p-4 mx-auto block"
+        className="border-1 w-80 rounded-md p-4 mx-auto block"
       />
       <ul>
         {stocks.map((stock) => (
